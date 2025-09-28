@@ -10,11 +10,10 @@
 </head>
 
 <body>
-    <div id="main">
+    <div id="main"><input type="text" id="text" autofocus placeholder="Enter your todo">
+        <button onclick="addButton()" type="button" id="addButton">ADD TODO</button>
+        <button onclick="reset()" type="button" id="deleteButton">RESET</button>
         <div id="container">
-            <input type="text" id="text" placeholder="Enter your todo">
-            <button onclick="addButton()" type="button" id="addButton">ADD TODO</button>
-            <button type="button" id="deleteButton">DELETE TODO</button>
         </div>
 
 
